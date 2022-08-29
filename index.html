@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mahmoud Ibrahim </title>
+      <link rel="stylesheet" href="css/hover.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+      <link rel="stylesheet"   href="css/mahmoud.css">
+      <link rel="stylesheet"   href="css/bootstrap.min.css">
+      <link rel="stylesheet"   href="css/normalize.css">
+        <link rel="stylesheet" href="css/all.min.css">
+      
+                <!--google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,500;0,700;1,300;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="mahmoud ">
+  <nav class=" opacity-75 fixed-top text-center">
+      <h1>Mahmoud Ibrahim Mohamed Abo Hussein</h1>
+  </nav>
+        <div class="container">
+            <div class="bar">
+                <span class="one"></span>
+                <span class="two"></span>
+                <span class="three"></span>
+            </div>
+            <header class="bg-secondary opacity-50 text-center m-3 mt-5 ">
+                <h1 class="nameone ">Welcom</h1>
+            </header>
+            <div class="main">
+                <div class="contact">
+                    <img   src="img/شخصيه1.jpg" alt="web devoleper">
+                    <h3 class="text-center">contact</h3>
+                 <a href="+201278576173"><i class="fa-solid fa-phone-volume  mb-2">  </i> +201278576173</a>
+                 <a href="mahmoudd188@gmail.com"><i class="fa-solid fa-envelope  mb-2 ">
+                         </i> mahmoudd188@gmail.com</a>
+                    <a href="cairo"><i class="fa-solid fa-location-dot ">
+                         </i>cairo,Elsalam city</a>
+                    <a href=""><i class="fa-brands fa-github"></i>https://github.com/Mhmoud-Ibrahim</a>
+                </div>
+                <div class="data">
+                    <h1 class="name p-3 text-center">Mahmoud Ibrahim</h1>
+                        <span class="span">web developer</span>
+                    <h1 class="title bg-secondary opacity-50 w-50">career Objective</h1>
+                    <p>I'm looking for a jobs that develops my experience to join a reputable 
+                        organization that will meet me expectations to gain
+                        experience, and eventually get promoted in the organization structure
+                         to level that i deserve and meet my ambition.</p>
+                    <h1 class="title bg-secondary opacity-50 w-50">Education</h1>
+                    <p>
+                        <li>Diploma php form Russian Cultural Center in Cairo.</li>
+                        <li>diploma in html ,css ,javascript form El Zeroo Web school</li>
+                        <li>php and Back end course from Eng. Jouda El Alfi  online .</li>
+                        <li>Diploma php form Russian Cultural Center .</li>
+                        <li>•	General Diploma in Educational Qualification - ICDL</li>
+                        <li>B.C of agriculture</li>	
+                        <li>Primary teacher from 2014 until now</li>
+                    </p>
+                    <h1 class="title bg-secondary opacity-50 w-50">work Experiences</h1>
+                    <p>
+                        <li>php developer (freelancer) </li>
+                        <li>Data Entry fom lawer office</li>
+                        <li>Assistant software engineer in writing and formatting some code</li>
+                        <li>An Engineer in Daqhlia company  overtime</li>
+                    </p>
+                    <h1 class="title bg-secondary opacity-50 w-50">Personal Skills</h1>
+                    <p>
+                        <li>work under pressure</li>
+                        <li>leadership</li>
+                        <li>ability to comunicate</li>
+                        <li>self-confidence</li>
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <nav class="lastf   text-center fixed-bottom bg-secondary opacity-75">
+        &copy;2022 <span>Mahmoud Ibrahim</span> All ight Reserved</nav>
+
+        <div class="menu">
+               <img class="img1"  src="img/mark2.jpg" alt=""> 
+               <img class="img2"src="img/شخصيه1.jpg" alt=""> 
+                 <img class="img3" src="img/pexels-евгения-егорова-9595891.jpg" alt=""> 
+               
+        </div>
+    <script src="bootstrap.min.js" ></script>
+    <script src="jquery-3.6.0.min.js" ></script>
+    <script>
+        $(".bar").click(function(){
+    $('.menu').toggle(500);
+})
+  //hide it when clicking anywhere else except the popup and the trigger
+  $(document).on('click touch', function(event) {
+    if (!$(event.target).parents().addBack().is('.bar')) {
+      $('.menu').hide();
+    }
+  });
+  
+    </script>
+</body>
+</html>
