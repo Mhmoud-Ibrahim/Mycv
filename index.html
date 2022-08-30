@@ -22,7 +22,7 @@
 </head>
 <body>
 
-    <div class="mahmoud ">
+    <div class="mahmoud " id="mahmoudMain">
   <nav class=" opacity-75 fixed-top text-center">
       <h1>Mahmoud Ibrahim Mohamed Abo Hussein</h1>
   </nav>
@@ -35,8 +35,8 @@
             <header class="bg-secondary opacity-50 text-center m-3 mt-5 ">
                 <h1 class="nameone ">Welcom</h1>
             </header>
-            <div class="main">
-                <div class="contact">
+            <div class="main p-0 m-0">
+                <div class="contact" id="contact">
                     <img   src="img/شخصيه1.jpg" alt="web devoleper">
                     <h3 class="text-center">contact</h3>
                  <a href="+201278576173"><i class="fa-solid fa-phone-volume  mb-2">  </i> +201278576173</a>
@@ -86,7 +86,7 @@
     <nav class="lastf   text-center fixed-bottom bg-secondary opacity-75">
         &copy;2022 <span>Mahmoud Ibrahim</span> All ight Reserved</nav>
 
-        <div class="menu">
+        <div class="menu" id="menu">
                <img class="img1"  src="img/mark2.jpg" alt=""> 
                <img class="img2"src="img/شخصيه1.jpg" alt=""> 
                  <img class="img3" src="img/pexels-евгения-егорова-9595891.jpg" alt=""> 
@@ -104,7 +104,12 @@
       $('.menu').hide();
     }
   });
-  
+//  let mah =document.getElementsByClassName(".mahmoud");
+//   $(document).scroll(function (){
+//   if($(window).scrollTop() >5){
+//      $(".mahmoud").css('background-color','gray'),(500);
+//   }
+// })
     </script>
 </body>
 </html>
