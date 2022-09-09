@@ -241,8 +241,8 @@ start footer */
 .tetor div {
     position: absolute;
     z-index: 10;
-    background-color: rgb(156, 20, 247);
-    color: yellow;
+    background-color: rgb(247, 172, 247);
+    color: rgb(26, 26, 24);
     width:60px;
     height: 60px;
     opacity: 85%;
@@ -256,7 +256,7 @@ start footer */
     font-size: 12px;
     right: 50px;
     border: 3px solid;
-    border-color:rgb(245, 92, 245) rgb(40, 39, 41);
+    border-color: rgb(247, 172, 247) rgb(189, 183, 196);
 }
 
 .tetor .html {
