@@ -24,7 +24,7 @@
 
     <div class="mahmoud " id="mahmoudMain">
   <nav class=" opacity-75 fixed-top text-center">
-      <h1>Mahmoud Ibrahim Mohamed Abo Hussein</h1>
+      <h1 class="myName">Mahmoud Ibrahim Mohamed Abo Hussein</h1>
   </nav>
         <div class="container">
             <div class="bar">
@@ -35,6 +35,16 @@
             <header class="bg-secondary opacity-50 text-center m-3 mt-5 ">
                 <h1 class="nameone ">Welcom</h1>
             </header>
+            <div class="tetor">
+                <div class="html ">html</div>
+                <div class="css">css</div>
+                <div class="java">javascript</div>
+                <div class="jquery">jquery</div>
+                <div class="Vue">Vje.js</div>
+                <div class="php">php</div>
+                <div class="laravel">laravel</div>
+                <div class="git">Git and github</div>
+            </div>
             <div class="main p-0 m-0">
                 <div class="contact" id="contact">
                     <img   src="img/شخصيه1.jpg" alt="web devoleper">
@@ -83,6 +93,8 @@
             
         </div>
     </div>
+
+   
     <nav class="lastf   text-center fixed-bottom bg-secondary opacity-75">
         &copy;2022 <span>Mahmoud Ibrahim</span> All ight Reserved</nav>
 
@@ -94,22 +106,7 @@
         </div>
     <script src="bootstrap.min.js" ></script>
     <script src="jquery-3.6.0.min.js" ></script>
-    <script>
-        $(".bar").click(function(){
-    $('.menu').toggle(500);
-})
-  //hide it when clicking anywhere else except the popup and the trigger
-  $(document).on('click touch', function(event) {
-    if (!$(event.target).parents().addBack().is('.bar')) {
-      $('.menu').hide();
-    }
-  });
-//  let mah =document.getElementsByClassName(".mahmoud");
-//   $(document).scroll(function (){
-//   if($(window).scrollTop() >5){
-//      $(".mahmoud").css('background-color','gray'),(500);
-//   }
-// })
-    </script>
+    <script src="mahmoud.js" ></script>
+   
 </body>
 </html>

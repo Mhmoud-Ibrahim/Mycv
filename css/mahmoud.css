@@ -11,6 +11,7 @@ html{
     
 }
  /*small screen*/
+
  @media(min-width:768px){
     .container{
         width: 750px;
@@ -112,10 +113,6 @@ i{
 .name {
     font-size: 45px;
     transition: 0.5s;
-}
-.name:hover{
-    font-style:oblique;
-    color: red;
 }
 .span {
     display: flex;
@@ -235,4 +232,79 @@ start footer */
 }
 .menu li:hover{
     margin-left: 25px;
+}
+.tetor{
+    position: relative;
+    top: -200px;
+    right: -42px;
+}
+.tetor div {
+    position: absolute;
+    z-index: 10;
+    background-color: rgb(156, 20, 247);
+    color: yellow;
+    width:60px;
+    height: 60px;
+    opacity: 85%;
+    border-radius: 50%;
+    border: solid 2px #c3c3c3;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    transition: transform 0.5s;
+    padding: 15px;
+    font-size: 12px;
+    right: 50px;
+    border: 3px solid;
+    border-color:rgb(245, 92, 245) rgb(40, 39, 41);
+}
+
+.tetor .html {
+    margin-top: 205px;
+    transition: transform 0.7s ease-in-out, margin-right 0.7s ease-in-out;
+}
+.tetor .css {
+    margin-top: 270px;
+        transition: transform 0.9s ease-in-out, margin-right 0.9s ease-in-out;
+
+}
+.tetor .java {
+    margin-top: 340px;
+        transition: transform 1s ease-in-out, margin-right 1s ease-in-out;
+
+    font-size: 8px;
+   
+}
+.tetor .jquery {
+    margin-top:410px;
+        transition: transform 1.2s ease-in-out, margin-right 1.2s ease-in-out;
+
+}
+.tetor .Vue {
+    margin-top: 480px;
+        transition: transform 1.5s ease-in-out, margin-right 1.5s ease-in-out;
+
+}
+.tetor .php {
+    margin-top:550px;
+        transition: transform 2s ease-in-out, margin-right 2s ease-in-out;
+
+}
+.tetor .laravel {
+    margin-top:620px;
+        transition: transform 2.2s ease-in-out, margin-right 2.2s ease-in-out;
+
+}
+.tetor .git {
+    margin-top: 690px;
+        transition: transform 2.5s ease-in-out, margin-right 2.5s ease-in-out;
+
+    font-size: 8px;
+}
+.rot {
+    transform: rotate(360deg);
+   margin-right: 100px;
+  
+       transition: transform 3s ease-in-out, margin-right 3s ease-in-out;
+
 }
